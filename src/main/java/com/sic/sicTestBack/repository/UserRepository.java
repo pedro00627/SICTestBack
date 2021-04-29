@@ -12,5 +12,5 @@ import com.sic.sicTestBack.entities.User;
  *
  */
 public interface UserRepository extends JpaRepository<User, Long>{
-
+	public abstract User findByUsername(String username);
 }

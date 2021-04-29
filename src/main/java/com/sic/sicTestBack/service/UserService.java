@@ -8,7 +8,7 @@ import com.sic.sicTestBack.model.UserModel;
 
 public interface UserService {
 	
-	public void create(User user);
+	public boolean create(User user);
 	
 	public User read(Long id);
 	
